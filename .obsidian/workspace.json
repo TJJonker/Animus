@@ -1,0 +1,158 @@
+{
+  "main": {
+    "id": "39246764cd375d61",
+    "type": "split",
+    "children": [
+      {
+        "id": "ff530e4f578c3a78",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2d5c51e76dfc6756",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "16e3191e01622fcf",
+    "type": "split",
+    "children": [
+      {
+        "id": "f17643563b3fc693",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e2011fdc7921031d",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "113f3a3aa12fe9c8",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "fe06d3aa76ae6e90",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "d0ba8acec911cb38",
+    "type": "split",
+    "children": [
+      {
+        "id": "fbc1d8a13dd10e8e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "27f0a45624999760",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "9ad28ce22fadbdb1",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "120fda512417cc41",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "7fb6cc8ee7314828",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "2d5c51e76dfc6756",
+  "lastOpenFiles": [
+    "6 - All Nodes/Pipeline State Object (PSO).md",
+    "3 - Tags/Graphics Programming.md",
+    "3 - Tags/DirectX12.md",
+    "6 - All Nodes/Really Interesting Node That Peaks My Interest.md",
+    "5 - Templates/Node Template.md",
+    "Animus",
+    "6 - All Nodes",
+    "5 - Templates",
+    "4 - Indexes",
+    "3 - Tags",
+    "2 - Source Material/Blogs",
+    "2 - Source Material",
+    "1 - Rough Notes",
+    "Welcome.md"
+  ]
+}
