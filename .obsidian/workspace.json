@@ -21,6 +21,19 @@
             }
           },
           {
+            "id": "fd0c110e2dcee599",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "5 - Templates/Source Material Template.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "160e142db9f637f2",
             "type": "leaf",
             "state": {
@@ -28,7 +41,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -94,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "6 - All Notes/Command Queue.md",
+                "file": "5 - Templates/Source Material Template.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "6 - All Notes/Command Queue.md",
+                "file": "5 - Templates/Source Material Template.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "6 - All Notes/Command Queue.md"
+                "file": "5 - Templates/Source Material Template.md"
               }
             }
           }
@@ -155,15 +169,19 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "2d5c51e76dfc6756",
+  "active": "fd0c110e2dcee599",
   "lastOpenFiles": [
+    "2 - Source Material/YouTube/Untitled.md",
+    "5 - Templates/Source Material Template.md",
     "6 - All Notes/Command Queue.md",
+    "DRAM.md",
+    "2 - Source Material/YouTube",
+    "2 - Source Material/YouTube.md",
     "6 - All Notes/The Swap Chain.md",
     "6 - All Notes/The Root Signature.md",
     "6 - All Notes/The Pipeline State Object (PSO).md",
     "5 - Templates/Note Template.md",
     "3 - Tags/Template.md",
-    "5 - Templates/Untitled.md",
     "5 - Templates/Note Template Code.md",
     "Pasted image 20240628164852.png",
     "3 - Tags/DirectX12.md",
