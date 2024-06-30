@@ -15,7 +15,7 @@ The CPU will use data by moving the data from the SSD to the DRAM and prefetchin
 
 A stick of DRAM is also called a DIMM (Dual Inline Memory Module). The black squares on the DRAM are the DRAM chips, which there are often 8 of on a stick. Most generic motherboards have 4 DIMM slots, holding space for 4 DRAM modules. The DIMM slots directly connect the DRAM with the CPU via two memory channels that run on the motherboard. The left two DIMM slots share the same memory channels, and the right two share other memory channels.
 
-The CPU 
+The CPU contains a memory controller called a DRAM interface, which communicates with the DRAM. The CPU also has a separate section
 
 
 
