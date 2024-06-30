@@ -5,7 +5,9 @@
 
 DRAM is an abbreviation for Dynamic Random Access Memory, which is otherwise known as 'main memory' or 'working memory'.  In order to use data, it needs to be moved from any long term storage module to the DRAM. 
 
-long term storage permanently stores data in massive 3D arrays, while DRAM temporarily stores data in 2D arrays. Fetching data from SSD's can take 50 microseconds (10)
+long term storage permanently stores data in massive 3D arrays, while DRAM temporarily stores data in 2D arrays. Fetching data from an SSD can take 50 microseconds (10$^-$$^6$ seconds), while fetching data from DRAM takes 17 nanoseconds (10$^-$$^9$ seconds), which makes DRAM data fetching about 3000 times faster. 
+
+
 
 
 
