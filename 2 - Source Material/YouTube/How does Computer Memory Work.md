@@ -13,6 +13,9 @@ The CPU will use data by moving the data from the SSD to the DRAM and prefetchin
 
 >*"Why is it called Dynamic Random Access Memory? Also, why didn't we just call it RAM or just Memory throughout the video? Well, Random Access, means the computer can access any section of data with an equal amount of time before the data is read or written compared to any other section. The opposite is Linear Access Memory, which like a cassette tape. It's 'Dynamic' because the data cells lose charge over time, and thus have to be refreshed multiple times a second. Finally, we didn't call it RAM, because there are many types of RAM. SSDs are technically NVRAM [Non-Volatile RAM] Cache memory in the CPU is SRAM [Static RAM], GPUs use VRAM [Video RAM], which is VERY close in design to DRAM, and additionally there lesser known ones like MRAM [Magnetoresistive RAM] , and many more. Also, why not SDRAM [Synchronous Data RAM]? Because all DDR 1,2,3,4,5 is SD, and non-SDRAM for computers is obsolete by 20ish years- although I'm sure there is non-SD RAM for other applications."*
 
+A stick of DRAM is also called a DIMM (Dual Inline Memory Module). The black squares on the DRAM are the DRAM chips, which there are often 8 of on a stick. Most generic motherboards have 4 DIMM slots, holding space for 4 DRAM modules. The DIMM slots directly connect the DRAM with the CPU via two memory channels that run on the motherboard. The left two DIMM slots share the same memory channels, and the right two share other memory channels.
+
+The CPU 
 
 
 
