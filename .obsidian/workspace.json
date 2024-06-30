@@ -13,22 +13,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "6 - All Notes/The Swap Chain.md",
+                "file": "6 - All Notes/Command Queue.md",
                 "mode": "source",
+                "backlinks": true,
                 "source": false
               }
             }
           },
           {
-            "id": "26971a2cd7d3e785",
+            "id": "160e142db9f637f2",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "6 - All Notes/The Root Signature.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             }
           }
         ]
@@ -60,7 +57,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#alpha",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -97,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "6 - All Notes/The Swap Chain.md",
+                "file": "6 - All Notes/Command Queue.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "6 - All Notes/The Swap Chain.md",
+                "file": "6 - All Notes/Command Queue.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "6 - All Notes/The Swap Chain.md"
+                "file": "6 - All Notes/Command Queue.md"
               }
             }
           }
@@ -160,15 +157,18 @@
   },
   "active": "2d5c51e76dfc6756",
   "lastOpenFiles": [
-    "Pasted image 20240628164852.png",
-    "1 - Rough Notes/DX12 todo.md",
-    "6 - All Notes/The Pipeline State Object (PSO).md",
     "6 - All Notes/The Swap Chain.md",
-    "Something.md",
+    "6 - All Notes/Command Queue.md",
     "6 - All Notes/The Root Signature.md",
-    "5 - Templates/Note Template Code.md",
+    "6 - All Notes/The Pipeline State Object (PSO).md",
     "5 - Templates/Note Template.md",
+    "3 - Tags/Template.md",
+    "5 - Templates/Untitled.md",
+    "5 - Templates/Note Template Code.md",
+    "Pasted image 20240628164852.png",
     "3 - Tags/DirectX12.md",
+    "1 - Rough Notes/DX12 todo.md",
+    "Something.md",
     "3 - Tags/Graphics Programming.md",
     "5 - Templates/Tag Expansion.md",
     "6 - All Nodes/Really Interesting Node That Peaks My Interest.md",
