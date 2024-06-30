@@ -8,25 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "2d5c51e76dfc6756",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "6 - All Notes/Command Queue.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
             "id": "fd0c110e2dcee599",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "5 - Templates/Source Material Template.md",
+                "file": "2 - Source Material/YouTube/How does Computer Memory Work.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -41,8 +28,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -108,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "5 - Templates/Source Material Template.md",
+                "file": "2 - Source Material/YouTube/How does Computer Memory Work.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "5 - Templates/Source Material Template.md",
+                "file": "2 - Source Material/YouTube/How does Computer Memory Work.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "5 - Templates/Source Material Template.md"
+                "file": "2 - Source Material/YouTube/How does Computer Memory Work.md"
               }
             }
           }
@@ -171,9 +157,9 @@
   },
   "active": "fd0c110e2dcee599",
   "lastOpenFiles": [
-    "2 - Source Material/YouTube/Untitled.md",
     "5 - Templates/Source Material Template.md",
     "6 - All Notes/Command Queue.md",
+    "2 - Source Material/YouTube/How does Computer Memory Work.md",
     "DRAM.md",
     "2 - Source Material/YouTube",
     "2 - Source Material/YouTube.md",
