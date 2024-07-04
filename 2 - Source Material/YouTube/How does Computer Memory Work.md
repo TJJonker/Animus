@@ -22,6 +22,33 @@ DRAM in DDR5 is split up into two channels (Channel A and Channel B). Both chann
 Inside a memory chip, 32 data banks can be found, each with a size of 65536 rows and 8192 columns. Each cell here represents a data cell that can hold a single bit while powered. Using a 31 bit address, we can define the data we want to retrieve. The first three bits are for specifying the data group
 
 Inside a memory chip, 32 data banks can de found, each with a size of 65536 x 8192 data cells, forming a grid structure. Using a 32 bit address, the first three bits are used to select the bank group, the next two bits to select the bank, 16 bits exact row.
+```python
+DRAM Chip
++---------------------------------------------------------------------+
+| Bank Group 0                                                        |
+| +----------------------------------------------------------------+  | 
+| |   Bank 0      |   Bank 1      |   Bank 2      |   Bank 3       |  |
+| |   +-------+   |   +-------+   |   +-------+   |   +-------+    |  |
+| |   | Row 0 |   |   | Row 0 |   |   | Row 0 |   |   | Row 0 |    |  |
+| |   | Cell  |   |   | Cell  |   |   | Cell  |   |   | Cell  |    |  |
+| |   | ...   |   |   | ...   |   |   | ...   |   |   | ...   |    |  |
+| |   | Row N |   |   | Row N |   |   | Row N |   |   | Row N |    |  |
+| |   +-------+   |   +-------+   |   +-------+   |   +-------+    |  |
+| +----------------------------------------------------------------+  |
+|                                                                     |
+| Bank Group 1                                                        |
+| +----------------------------------------------------------------+  |
+| |   Bank 0      |   Bank 1      |   Bank 2      |   Bank 3       |  | 
+| |   +-------+   |   +-------+   |   +-------+   |   +-------+    |  | 
+| |   | Row 0 |   |   | Row 0 |   |   | Row 0 |   |   | Row 0 |    |  | 
+| |   | Cell  |   |   | Cell  |   |   | Cell  |   |   | Cell  |    |  | 
+| |   | ...   |   |   | ...   |   |   | ...   |   |   | ...   |    |  | 
+| |   | Row N |   |   | Row N |   |   | Row N |   |   | Row N |    |  | 
+| |   +-------+   |   +-------+   |   +-------+   |   +-------+    |  | 
+| +----------------------------------------------------------------+  |
++---------------------------------------------------------------------+
+
+```
 
 
 
