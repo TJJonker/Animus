@@ -57,7 +57,10 @@ The memory cell inside DRAM is called a '1T1C DRAM Memory Cell'. It contains a s
 
 Over every row spans a wordline, and over every column spans a bitline, creating a grid like structure. If a single wordline and 8 consecutive bitlines are enabled, we can read or update the content of these 8 cells. The ends of every bitline is connected to the Column Multiplexer which, depending on the last 10 bits of the memory address, connects these bitlines to the I/O Data Wires of the chip.
 
-To detect the content of a cell, a wordline is enabled and the bitlines are prepared with a voltage of 0,5V. At the end of the bitline, a Sense Amplifer is placed to amplify the signal form the bitline. When a cell channel is opened and the cell holds 1V, the bitline will slowly drain the content of the cell. The Sense Amplifier will sense the change of current through the bitline and set the bitline to 1, recharging the cell again. The opposite happens when the cell holds 0V; the cell will drain charge from the bitline, the Sense Amplifier senses the change and drain all the current from the bitline, discharging the cell.
+#### Reading
+To detect the content of a cell, a wordline is enabled and the bitlines are prepared with a voltage of 0,5V. At the end of the bitline, a Sense Amplifer is placed to amplify the signal form the bitline. When a cell channel is opened and the cell holds 1V, the bitline will slowly drain the content of the cell. The Sense Amplifier will sense the change of current through the bitline and set the bitline to 1, recharging the cell again. The opposite happens when the cell holds 0V; the cell will drain charge from the bitline, the Sense Amplifier senses the change and drain all the current from the bitline, discharging the cell in its process. All the charges of the Sense Amplifier are read and sent to the read driver on the chip.
+
+#### Writing
 
 
 ## References 
