@@ -61,7 +61,22 @@ Over every row spans a wordline, and over every column spans a bitline, creating
 To detect the content of a cell, a wordline is enabled and the bitlines are prepared with a voltage of 0,5V. At the end of the bitline, a Sense Amplifer is placed to amplify the signal form the bitline. When a cell channel is opened and the cell holds 1V, the bitline will slowly drain the content of the cell. The Sense Amplifier will sense the change of current through the bitline and set the bitline to 1, recharging the cell again. The opposite happens when the cell holds 0V; the cell will drain charge from the bitline, the Sense Amplifier senses the change and drain all the current from the bitline, discharging the cell in its process. All the charges of the Sense Amplifier are read and sent to the read driver on the chip.
 
 #### Writing
+Setting the charge of the cells happens in mostly the same way. A single wordline is enabled and the content is read through the bitlines, by the Sense Amplifiers. Instead of linking the Sense Amplifiers to the read driver, they're linked to the write driver, which takes the data from the CPU and overrides the Sense Amplifiers, which will charge/discharge the cells.
 
+#### Refreshing
+Refreshing is done by precharging all the bitlines and, row by row, open every wordline, read the content, amplify the content with the Sense Amplifier, taking about 50ns for each row, totaling to about 3ms per refresh. Refreshing happens at least once every 64ms since that's how look it would take for a cell to idle discharge and lose its content. 
+
+> **Note that the charge of 1V and ,5V is used for ease of use. In reality, the charge differs between the DDR version. The different charges can ben read in the table below**:
+
+|       | Full charge | Bitline precharge | Empty charge |
+| ----- | ----------- | ----------------- | ------------ |
+| DDR-5 | 1.1V        | 0.55V             | 0V           |
+| DDR-4 | 1.2V        | 0.6V              | 0V           |
+| DDR-3 | 1.5V        | 0.75V             | 0V           |
+| DDR-2 | 1.8V        | 0.9V              | 0V           |
+| DDR-1 | 2.5V        | 1.25V             | 0V           |
+
+Opening and closing rows takes (relatively speaking) a lot of time. When a row is already open and different bitlines are read from the same row, It's called a row hit. If a different row needs to be opened, it's called a row miss. 
 
 ## References 
  
