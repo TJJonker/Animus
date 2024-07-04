@@ -21,7 +21,6 @@ DRAM in DDR5 is split up into two channels (Channel A and Channel B). Both chann
 
 Inside a memory chip, 32 data banks can be found, each with a size of 65536 rows and 8192 columns. Each cell here represents a data cell that can hold a single bit while powered. Using a 31 bit address, we can define the data address we want to retrieve. The first three bits are used for specifying the bank group, the next two for the databank and the next 16 bits (2$^1$$^6$ = 65536) for specifying the row. Since the bandwidth is 8 bit, the memory will be retrieved per 8 bits, which can be done with the last 10 bits. (8192 / 8 = 1024 = 2$^1$$^0$)  
 
-Inside a memory chip, 32 data banks can de found, each with a size of 65536 x 8192 data cells, forming a grid structure. Using a 32 bit address, the first three bits are used to select the bank group, the next two bits to select the bank, 16 bits exact row.
 ```python
 DRAM Chip
 +-----------------------------------------------------------------------------+
@@ -53,7 +52,8 @@ DRAM Chip
 ```
 
 
-
+### Memory Cell
+The memory cell inside DRAM is called a '1T1C DRAM Memory Cell'. It contains a single Transistor to read or write data and a single Capacitator to store data. The cell is connected to two lines: the wordline, which enables the channel, and the bitline, which can read or change the value of the cell when the channel is enabled.
 
 
 
