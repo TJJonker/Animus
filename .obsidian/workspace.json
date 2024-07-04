@@ -8,12 +8,22 @@
         "type": "tabs",
         "children": [
           {
+            "id": "160e142db9f637f2",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "graph",
+              "state": {},
+              "pinned": true
+            }
+          },
+          {
             "id": "fd0c110e2dcee599",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2 - Source Material/YouTube/How does Computer Memory Work.md",
+                "file": "2 - Source Material/YouTube/Inner working or DRAM.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -21,14 +31,20 @@
             }
           },
           {
-            "id": "160e142db9f637f2",
+            "id": "1770b1c2fdb5fd79",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "1 - Rough Notes/DX12 todo.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -94,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2 - Source Material/YouTube/How does Computer Memory Work.md",
+                "file": "1 - Rough Notes/DX12 todo.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2 - Source Material/YouTube/How does Computer Memory Work.md",
+                "file": "1 - Rough Notes/DX12 todo.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2 - Source Material/YouTube/How does Computer Memory Work.md"
+                "file": "1 - Rough Notes/DX12 todo.md"
               }
             }
           }
@@ -155,17 +171,18 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "fd0c110e2dcee599",
+  "active": "1770b1c2fdb5fd79",
   "lastOpenFiles": [
-    "2 - Source Material/YouTube/How does Computer Memory Work.md",
+    "2 - Source Material/YouTube/Inner working or DRAM.md",
+    "3 - Tags/Computer Hardware.md",
+    "6 - All Notes/The Swap Chain.md",
+    "6 - All Notes/The Pipeline State Object (PSO).md",
     "5 - Templates/Source Material Template.md",
     "6 - All Notes/Command Queue.md",
     "DRAM.md",
     "2 - Source Material/YouTube",
     "2 - Source Material/YouTube.md",
-    "6 - All Notes/The Swap Chain.md",
     "6 - All Notes/The Root Signature.md",
-    "6 - All Notes/The Pipeline State Object (PSO).md",
     "5 - Templates/Note Template.md",
     "3 - Tags/Template.md",
     "5 - Templates/Note Template Code.md",

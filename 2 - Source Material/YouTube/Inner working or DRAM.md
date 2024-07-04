@@ -1,7 +1,7 @@
 2024-06-30 | 21:16
 **Source:** [How does Computer Memory Work](https://www.youtube.com/watch?v=7J7X7aZvMXQ&pp=ygUdaG93IGRvZXMgY29tcHV0ZXIgbWVtb3J5IHdvcms%3D) 
 **Status:** #alpha #beta #release
-**Tags:** 
+**Tags:** [[Computer Hardware]]
 
 DRAM is an abbreviation for Dynamic Random Access Memory, which is otherwise known as 'main memory' or 'working memory'.  In order to use data, it needs to be moved from any long term storage module to the DRAM. 
 
@@ -94,7 +94,6 @@ The concept of a burst buffer it to place a buffer between the Column Multiplexe
 Since the bitlines are long, the capacitator of the cells has to be big to accord for the long distance they need to travel to the Sense Amplifier. The same checks out for the wordline: bigger wordlines mean longer times to enable all the channel transistors. To tackle this, each memory bank is split up into chunks of 1024 by 1024, with a Sense Amplifier at the end of every chunk and the use of wordline division and a 'hierarchical row decoder' to reduce the charge, thus the time, necessary to open all channels. 
 
 #### Differential Pair
-Another optimization is the creation of a Differential Pair. Each bitline is split up into two bitlines, connecting to the same Sense Amplifier. The
-
-## References 
- 
+Another optimization is the creation of a Differential Pair. Each bitline is split up into two bitlines, connecting to the same Sense Amplifier. The cells now alternate between the left and the right bitline, using just the bitline which they're connected to. Inside the Sense Amplifier, a [[Cross-Coupled Inverter]] can be found, which inverts the charge of the first bitline and outputs the result to the other bitline. Since no other cell's channel transistor is active, it won't change the charge of any other cell. There are three benefits to this design:
+1. Since one bitline is always charged and the other is always discharged, precharging can simply be done by establishing a connection between the two bitlines, evening out the charge, which results in the precharge charge, which is always half of a full charge. (See table above)
+2. Since the two bitlines are now two oppositely charged wires, an electric field is created between the two wires, which can reduce the amount of electric fields emitted in stray directions, thus creating Noise Immunity and reducing Parasitic Capacitance.
