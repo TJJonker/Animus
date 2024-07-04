@@ -76,7 +76,17 @@ Refreshing is done by precharging all the bitlines and, row by row, open every w
 | DDR-2 | 1.8V        | 0.9V              | 0V           |
 | DDR-1 | 2.5V        | 1.25V             | 0V           |
 
-Opening and closing rows takes (relatively speaking) a lot of time. When a row is already open and different bitlines are read from the same row, It's called a row hit. If a different row needs to be opened, it's called a row miss. 
+Opening and closing rows takes (relatively speaking) a lot of time. When a row is already open and different bitlines are read from the same row, It's called a row hit. If a different row needs to be opened, it's called a row miss. On a package, a couple of analytics can be found which are measured in clock cycles:
+- **Cas Latency:** Time for a row hit
+- **RAS to CAS Delay**: Time for a column to open if the bitlines are precharged and wordlines are isolated
+- **Precharge:** Time to precharge
+- **Active to Precharge Delay:** Accumulated time to open a column and read hit a row
 
+Row hits can easily be recognized by splitting the address into two parts, where the first 21 bits are the RAS (Row Address Strobe) and the next 10 bits are the CAS (Column Address Strobe). If the RAS is the same as the current selected/opened row, the CAS only has to be sent to the Column Multiplexer, which can easily link the requested columns to the right driver. To increase the likelihood of a row hit, the CPU, programs and compilers are optimize to increase the number of subsequent row hits. The DRAM helps optimizing the likelihood of row hits by allowing every memory bank to independently keep a Row open. 
+
+Another optimization is regarding the refreshing, which, again, can take about 3ms. Since the DRAM is working with bank groups of 4 memory banks
+
+> RAS =>Row Address Strobe
+> CAS => Column Address Strobe
 ## References 
  
