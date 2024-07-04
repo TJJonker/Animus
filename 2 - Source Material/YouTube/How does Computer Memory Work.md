@@ -55,7 +55,7 @@ DRAM Chip
 ### Memory Cell
 The memory cell inside DRAM is called a '1T1C DRAM Memory Cell'. It contains a single Transistor to read or write data and a single Capacitator to store data. The cell is connected to two lines: the wordline, which enables the channel, and the bitline, which can read or change the value of the cell when the channel is enabled.
 
-Over every row spans a wordline, and over every column 
+Over every row spans a wordline, and over every column spans a bitline, creating a grid like structure. If a single wordline and 8 consecutive bitlines are enabled, we can read or update the content of these 8 cells. The ends of every bitline is connected to the Column Multiplexer which, depending on the last 10 bits of the memory address, connects these bitlines to the I/O Data Wires of the chip.
 
 
 ## References 
