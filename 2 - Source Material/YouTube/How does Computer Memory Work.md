@@ -17,7 +17,9 @@ A stick of DRAM is also called a DIMM (Dual Inline Memory Module). The black squ
 
 The CPU contains a memory controller called a DRAM interface, which communicates with the DRAM. The CPU also has a separate section responsible for communication with long term storage like M2 and SATA SSDs. Along with data mapping tables, the CPU manages the dataflow from SATA to DRAM and from DRAM to local cache storage. 
 
-DRAM in DDR5 is split up into two channels (Channel A and Channel B). Both channels independently move 32 bits of memory using 32 data wires, 21 additional wired to define read and/or write adreses and over 7 co;ntrol signal wires,
+DRAM in DDR5 is split up into two channels (Channel A and Channel B). Both channels independently move 32 bits of memory using 32 data wires, 21 additional wired to define read and/or write addresses and over 7 control signal wires, commands are relayed. Since each DRAM stick contains 4 memory chips, bandwidth has to be shared between the 4 chips, meaning every chip can transfer 8 bits of memory in parallel. The required power to run DRAM is provided by the motherboard and internally managed by the DRAM.
+
+Inside a memory chip, 32 data banks can de found, each with a size of 65536 x 8192 data cells, forming a grid structure. Using a 32 bit address, the first three bits are used to select the bank group, the next two bits to select the bank, 16 bits exact row.
 
 
 
