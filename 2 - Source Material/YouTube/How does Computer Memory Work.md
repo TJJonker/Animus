@@ -19,35 +19,37 @@ The CPU contains a memory controller called a DRAM interface, which communicates
 
 DRAM in DDR5 is split up into two channels (Channel A and Channel B). Both channels independently move 32 bits of memory using 32 data wires, 21 additional wired to define read and/or write addresses and over 7 control signal wires, commands are relayed. Since each DRAM stick contains 4 memory chips, bandwidth has to be shared between the 4 chips, meaning every chip can transfer 8 bits of memory in parallel. The required power to run DRAM is provided by the motherboard and internally managed by the DRAM.
 
-Inside a memory chip, 32 data banks can be found, each with a size of 65536 rows and 8192 columns. Each cell here represents a data cell that can hold a single bit while powered. Using a 31 bit address, we can define the data we want to retrieve. The first three bits are for specifying the data group
+Inside a memory chip, 32 data banks can be found, each with a size of 65536 rows and 8192 columns. Each cell here represents a data cell that can hold a single bit while powered. Using a 31 bit address, we can define the data address we want to retrieve. The first three bits are used for specifying the bank group, the next two for the databank and the next 16 bits (2$^1$$^6$ = 65536) for specifying the row. Since the bandwidth is 8 bit, the memory will be retrieved per 8 bits, which can be done with the last 10 bits. (8192 / 8 = 1024 = 2$^1$$^0$)  
 
 Inside a memory chip, 32 data banks can de found, each with a size of 65536 x 8192 data cells, forming a grid structure. Using a 32 bit address, the first three bits are used to select the bank group, the next two bits to select the bank, 16 bits exact row.
 ```python
 DRAM Chip
-+---------------------------------------------------------------------+
-| Bank Group 0                                                        |
-| +----------------------------------------------------------------+  | 
-| |   Bank 0      |   Bank 1      |   Bank 2      |   Bank 3       |  |
-| |   +-------+   |   +-------+   |   +-------+   |   +-------+    |  |
-| |   | Row 0 |   |   | Row 0 |   |   | Row 0 |   |   | Row 0 |    |  |
-| |   | Cell  |   |   | Cell  |   |   | Cell  |   |   | Cell  |    |  |
-| |   | ...   |   |   | ...   |   |   | ...   |   |   | ...   |    |  |
-| |   | Row N |   |   | Row N |   |   | Row N |   |   | Row N |    |  |
-| |   +-------+   |   +-------+   |   +-------+   |   +-------+    |  |
-| +----------------------------------------------------------------+  |
-|                                                                     |
-| Bank Group 1                                                        |
-| +----------------------------------------------------------------+  |
-| |   Bank 0      |   Bank 1      |   Bank 2      |   Bank 3       |  | 
-| |   +-------+   |   +-------+   |   +-------+   |   +-------+    |  | 
-| |   | Row 0 |   |   | Row 0 |   |   | Row 0 |   |   | Row 0 |    |  | 
-| |   | Cell  |   |   | Cell  |   |   | Cell  |   |   | Cell  |    |  | 
-| |   | ...   |   |   | ...   |   |   | ...   |   |   | ...   |    |  | 
-| |   | Row N |   |   | Row N |   |   | Row N |   |   | Row N |    |  | 
-| |   +-------+   |   +-------+   |   +-------+   |   +-------+    |  | 
-| +----------------------------------------------------------------+  |
-+---------------------------------------------------------------------+
-
++-----------------------------------------------------------------------------+
+|  Bank Group 0                                                               |
+|  +-----------------------------------------------------------------------+  | 
+|  |    Bank 0       |    Bank 1       |    Bank 2       |    Bank 3       |  |
+|  |    +-------+    |    +-------+    |    +-------+    |    +-------+    |  |
+|  |    | Row 0 |    |    | Row 0 |    |    | Row 0 |    |    | Row 0 |    |  |
+|  |    | Cell  |    |    | Cell  |    |    | Cell  |    |    | Cell  |    |  |
+|  |    | ...   |    |    | ...   |    |    | ...   |    |    | ...   |    |  |
+|  |    | Row N |    |    | Row N |    |    | Row N |    |    | Row N |    |  |
+|  |    +-------+    |    +-------+    |    +-------+    |    +-------+    |  |
+|  +-----------------------------------------------------------------------+  |
+|                                                                             |
+|  Bank Group 1                                                               |
+|  +-----------------------------------------------------------------------+  |
+|  |    Bank 0       |    Bank 1       |    Bank 2       |    Bank 3       |  | 
+|  |    +-------+    |    +-------+    |    +-------+    |    +-------+    |  | 
+|  |    | Row 0 |    |    | Row 0 |    |    | Row 0 |    |    | Row 0 |    |  | 
+|  |    | Cell  |    |    | Cell  |    |    | Cell  |    |    | Cell  |    |  | 
+|  |    | ...   |    |    | ...   |    |    | ...   |    |    | ...   |    |  | 
+|  |    | Row N |    |    | Row N |    |    | Row N |    |    | Row N |    |  | 
+|  |    +-------+    |    +-------+    |    +-------+    |    +-------+    |  | 
+|  +-----------------------------------------------------------------------+  |
+|                                                                             |
+|  Bank Group 2 ... 7                                                         | 
+|                                                                             |
++-----------------------------------------------------------------------------+
 ```
 
 
