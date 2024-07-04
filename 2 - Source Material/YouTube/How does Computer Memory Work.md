@@ -76,6 +76,7 @@ Refreshing is done by precharging all the bitlines and, row by row, open every w
 | DDR-2 | 1.8V        | 0.9V              | 0V           |
 | DDR-1 | 2.5V        | 1.25V             | 0V           |
 
+#### Row hit optimization 
 Opening and closing rows takes (relatively speaking) a lot of time. When a row is already open and different bitlines are read from the same row, It's called a row hit. If a different row needs to be opened, it's called a row miss. On a package, a couple of analytics can be found which are measured in clock cycles:
 - **Cas Latency:** Time for a row hit
 - **RAS to CAS Delay**: Time for a column to open if the bitlines are precharged and wordlines are isolated
@@ -84,9 +85,16 @@ Opening and closing rows takes (relatively speaking) a lot of time. When a row i
 
 Row hits can easily be recognized by splitting the address into two parts, where the first 21 bits are the RAS (Row Address Strobe) and the next 10 bits are the CAS (Column Address Strobe). If the RAS is the same as the current selected/opened row, the CAS only has to be sent to the Column Multiplexer, which can easily link the requested columns to the right driver. To increase the likelihood of a row hit, the CPU, programs and compilers are optimize to increase the number of subsequent row hits. The DRAM helps optimizing the likelihood of row hits by allowing every memory bank to independently keep a Row open. 
 
-Another optimization is regarding the refreshing, which, again, can take about 3ms. Since the DRAM is working with bank groups of 4 memory banks
+Another optimization is regarding the refreshing, which, again, can take about 3ms. Since the DRAM is working with bank groups of 4 memory banks. Every time a refresh is necessary, the CPU can refresh one bank in each bank group at a time, while using the other three, reducing the impact of refreshing.
 
-> RAS =>Row Address Strobe
-> CAS => Column Address Strobe
+#### Burst buffer
+The concept of a burst buffer it to place a buffer between the Column Multiplexer and the drivers. Instead of reading 8 bits at a time, N columns can be read, temporarily stored inside the buffer and send to the CPU in quick succession. The same goes for writing: The CPU can sent a bigger chunk of data to the DRAM, which can read from the buffer and quickly change the content of the memory bank. Since all the read and write commands can be executed in a single action, the burst buffer improves the overall performance of reading and writing.
+
+#### Subdividing
+Since the bitlines are long, the capacitator of the cells has to be big to accord for the long distance they need to travel to the Sense Amplifier. The same checks out for the wordline: bigger wordlines mean longer times to enable all the channel transistors. To tackle this, each memory bank is split up into chunks of 1024 by 1024, with a Sense Amplifier at the end of every chunk and the use of wordline division and a 'hierarchical row decoder' to reduce the charge, thus the time, necessary to open all channels. 
+
+#### Differential Pair
+Another optimization is the creation of a Differential Pair. Each bitline is split up into two bitlines, connecting to the same Sense Amplifier. The
+
 ## References 
  
