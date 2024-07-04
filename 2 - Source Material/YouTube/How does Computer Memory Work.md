@@ -55,6 +55,28 @@ DRAM Chip
 ### Memory Cell
 The memory cell inside DRAM is called a '1T1C DRAM Memory Cell'. It contains a single Transistor to read or write data and a single Capacitator to store data. The cell is connected to two lines: the wordline, which enables the channel, and the bitline, which can read or change the value of the cell when the channel is enabled.
 
+A single wordline spans over each row, while a single 
+
+```python
+DRAM Memory Bank
++--------------------------------------------------------------------------------+
+|                    | Bitline 0 | Bitline 1 | Bitline 2 | Bitline 3 | ... | BL N |
+|--------------------|-----------|-----------|-----------|-----------|-----|------|
+| WL 0 (Row 0) |  Cell 00  |  Cell 01  |  Cell 02  |  Cell 03  | ... |  Cell 0N  |
+|--------------------|-----------|-----------|-----------|-----------|-----|-----------|
+| WL 1 (Row 1) |  Cell 10  |  Cell 11  |  Cell 12  |  Cell 13  | ... |  Cell 1N  |
+|--------------------|-----------|-----------|-----------|-----------|-----|-----------|
+| WL 2 (Row 2) |  Cell 20  |  Cell 21  |  Cell 22  |  Cell 23  | ... |  Cell 2N  |
+|--------------------|-----------|-----------|-----------|-----------|-----|-----------|
+| WL 3 (Row 3) |  Cell 30  |  Cell 31  |  Cell 32  |  Cell 33  | ... |  Cell 3N  |
+|--------------------|-----------|-----------|-----------|-----------|-----|-----------|
+|        ...         |    ...    |    ...    |    ...    |    ...    | ... |    ...    |
+|--------------------|-----------|-----------|-----------|-----------|-----|-----------|
+| WL N (Row N) |  Cell N0  |  Cell N1  |  Cell N2  |  Cell N3  | ... |  Cell NN  |
++--------------------------------------------------------------------------------+
+
+```
+
 
 
 ## References 
