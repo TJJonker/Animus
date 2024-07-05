@@ -38,11 +38,20 @@ HRESULT STDMETHODCALLTYPE CreateCommandList(
 ## Example
 
 ```cpp
-	for (int i = 0; i < frameBufferCount; i++) {
-		hr = device->CreateCommandAllocator(D3D12_COMMAND_LIST_TYPE_DIRECT, IID_PPV_ARGS(&commandAllocator[i]));
-		if (FAILED(hr))
-			return false;
-	}
+ID3D12CommandAllocator* commandAllocator[3];
+
+for (int i = 0; i < frameBufferCount; i++) {
+	device->CreateCommandAllocator(
+		D3D12_COMMAND_LIST_TYPE_DIRECT, 
+		IID_PPV_ARGS(&commandAllocator[i]));
+}
+
+device->CreateCommandList(
+	0, 
+	D3D12_COMMAND_LIST_TYPE_DIRECT, 
+	commandAllocator[0], 
+	NULL, 
+	IID_PPV_ARGS(&commandList));
 ```
 
 ## References
