@@ -1,2 +1,2 @@
-- [ ] Swap Chain (DX12)
-- [ ] Command List
+- [x] [[The Swap Chain]]
+- [ ] [[Command Queue]]

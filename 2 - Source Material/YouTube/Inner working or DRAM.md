@@ -1,6 +1,6 @@
 2024-06-30 | 21:16
 **Source:** [How does Computer Memory Work](https://www.youtube.com/watch?v=7J7X7aZvMXQ&pp=ygUdaG93IGRvZXMgY29tcHV0ZXIgbWVtb3J5IHdvcms%3D) 
-**Status:** #alpha #beta #release
+**Status:** #beta
 **Tags:** [[Computer Hardware]]
 
 DRAM is an abbreviation for Dynamic Random Access Memory, which is otherwise known as 'main memory' or 'working memory'.  In order to use data, it needs to be moved from any long term storage module to the DRAM. 
