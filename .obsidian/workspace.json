@@ -70,7 +70,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "d0ba8acec911cb38",
@@ -147,7 +148,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e2011fdc7921031d",
+  "active": "fd0c110e2dcee599",
   "lastOpenFiles": [
     "6 - All Notes/Command List.md",
     "6 - All Notes/Window (Windows).md",
