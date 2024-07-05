@@ -15,15 +15,37 @@ Command lists can be used for goals. In the table below, all possible command li
 | ```D3D12_COMMAND_LIST_TYPE_VIDEO_DECODE```  | Creates a command buffer for video decoding.                                                                                                                                              |
 | ```D3D12_COMMAND_LIST_TYPE_VIDEO_PROCESS``` | Creates a command buffer for video processing.                                                                                                                                            |
 
+To use command lists, a Command Allocator needs to be created, allocating memory for the command lists. Next, we create the command allocator itself and give the pointer to our allocated memory, allowing it to record and store commands at that pointer. When execute the command list, we need to reset the content, after which we can record new commands and populate the command list.
 
-
+#### Graphics Command List
+A graphics specialized command list is created, encapsulating a list of graphics commands for rendering. This Graphics Command List interface inherits from the generic command list interface.
+An elaborate list of functions used with this type of command list can be found in the [graphics command list documentation](https://learn.microsoft.com/en-us/windows/win32/api/d3d12/nn-d3d12-id3d12graphicscommandlist).
 
 ## Format
+```cpp
+HRESULT STDMETHODCALLTYPE CreateCommandList( 
+	_In_          UINT nodeMask,
+	_In_          D3D12_COMMAND_LIST_TYPE type,
+	_In_          ID3D12CommandAllocator *pCommandAllocator,
+	_In_opt_      ID3D12PipelineState *pInitialState,
+	REFIID        riid,
+	_COM_Outptr_  void **ppCommandList
+);
+```
+
 
 
 ## Example
 
+```cpp
+	for (int i = 0; i < frameBufferCount; i++) {
+		hr = device->CreateCommandAllocator(D3D12_COMMAND_LIST_TYPE_DIRECT, IID_PPV_ARGS(&commandAllocator[i]));
+		if (FAILED(hr))
+			return false;
+	}
+```
 
 ## References
 https://learn.microsoft.com/en-us/windows/win32/api/d3d12/nn-d3d12-id3d12commandlist
 https://learn.microsoft.com/en-us/windows/win32/api/d3d12/ne-d3d12-d3d12_command_list_type
+https://learn.microsoft.com/en-us/windows/win32/api/d3d12/nn-d3d12-id3d12graphicscommandlist
