@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Device.md",
+                "file": "6 - All Notes/IDXGIFactory Interface.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Device.md",
+                "file": "6 - All Notes/IDXGIFactory Interface.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Device.md",
+                "file": "6 - All Notes/IDXGIFactory Interface.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Device.md"
+                "file": "6 - All Notes/IDXGIFactory Interface.md"
               }
             }
           }
@@ -149,7 +149,8 @@
   },
   "active": "fd0c110e2dcee599",
   "lastOpenFiles": [
-    "Device.md",
+    "6 - All Notes/Device.md",
+    "6 - All Notes/IDXGIFactory Interface.md",
     "3 - Tags/Windows Programming.md",
     "6 - All Notes/Window (Windows).md",
     "6 - All Notes/Command List.md",
@@ -183,7 +184,6 @@
     "3 - Tags",
     "2 - Source Material/Blogs",
     "2 - Source Material",
-    "1 - Rough Notes",
-    "Welcome.md"
+    "1 - Rough Notes"
   ]
 }
