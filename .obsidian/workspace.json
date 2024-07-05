@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "6 - All Notes/Command Queue.md",
+                "file": "Command List.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "6 - All Notes/Command Queue.md",
+                "file": "Command List.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "6 - All Notes/Command Queue.md",
+                "file": "Command List.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "6 - All Notes/Command Queue.md"
+                "file": "Command List.md"
               }
             }
           }
@@ -149,14 +149,15 @@
   },
   "active": "fd0c110e2dcee599",
   "lastOpenFiles": [
+    "6 - All Notes/Command Queue.md",
+    "Command List.md",
     "6 - All Notes/The Swap Chain.md",
+    "1 - Rough Notes/DX12 todo.md",
     "6 - All Notes/The Pipeline State Object (PSO).md",
     "6 - All Notes/The Root Signature.md",
     "2 - Source Material/YouTube/Inner working or DRAM.md",
     "6 - All Notes/DWORD.md",
-    "1 - Rough Notes/DX12 todo.md",
     "3 - Tags/Computer Hardware.md",
-    "6 - All Notes/Command Queue.md",
     "5 - Templates/Source Material Template.md",
     "DRAM.md",
     "2 - Source Material/YouTube",

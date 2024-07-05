@@ -1,14 +1,32 @@
 2024-06-28 | 19:25  
-**Status:** #alpha 
+**Status:** #beta
 **Tags:** [[DirectX12]]
 
-A command queue is responsible for maintaining and executing commands on the GPU. Typically, these commands are related to rendering graphics, performing compute operations, or handling resource management. Due to the batching of commands on the CPU before sending them to the GPU, command queues prove to be more efficient than traditional separate API calls. Additionally, command queues allow for a parallel workflow, where one command queue can be executed by the GPU, while the CPU populates another.
+A command queue is responsible for submitting [[Command List|command lists]], synchronizing command list execution, collecting performance data or debug information, and updating resource tile mapping. 
+
+The command queue has two commonly used functions:
+- **ID3D12CommandQueue::ExecuteCommandLists:** Submits an array of command lists to the GPU for execution.
+- **ID3D12CommandQueue::Signal:** Updates a [[Fence]] to a specified value.
 
 
 ## Format
 
+```cpp
+HRESULT CreateCommandQueue( 
+	const D3D12_COMMAND_QUEUE_DESC  *pDesc, 
+	REFIID                          riid, 
+	void                            **ppCommandQueue );
+```
 
 ## Example
 
+```cpp
+ID3D12CommandQueue* commandQueue;
+D3D12_COMMAND_QUEUE_DESC cqDesc = {};
+
+HRESULT hr = device->CreateCommandQueue(&cqDesc, IID_PPV_ARGS(&commandQueue));
+```
 
 ## References
+
+https://learn.microsoft.com/en-us/windows/win32/api/d3d12/nn-d3d12-id3d12commandqueue
