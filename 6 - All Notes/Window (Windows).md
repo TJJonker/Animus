@@ -20,15 +20,89 @@ Other settings found in the WNDCLASS can be set to zero, or populated to achieve
 | ```cbWndExtra```    | Number of extra bytes to allocate after the window instance.                                                                                                                      |
 | ```hIcon```         | A handle to a class icon. If null, the system provides a default icon.                                                                                                            |
 | ```hCursor```       | A handle to a class cursor. If null, the application must explicitly set the cursor shape.                                                                                        |
-| ```hbrBackground``` |                                                                                                                                                                                   |
-| ```lpszMenuName```  |                                                                                                                                                                                   |
-| ```hIconSm```       |                                                                                                                                                                                   |
+| ```hbrBackground``` | The background of the window.                                                                                                                                                     |
+| ```lpszMenuName```  | Resource name of a class menu to use as a default.                                                                                                                                |
+| ```hIconSm```       | Handle to a small icon associated with the window class.                                                                                                                          |
+```cpp
+typedef struct tagWNDCLASSEXW {
+    UINT        cbSize;
+    UINT        style;
+    WNDPROC     lpfnWndProc;
+    int         cbClsExtra;
+    int         cbWndExtra;
+    HINSTANCE   hInstance;
+    HICON       hIcon;
+    HCURSOR     hCursor;
+    HBRUSH      hbrBackground;
+    LPCWSTR     lpszMenuName;
+    LPCWSTR     lpszClassName;
+    HICON       hIconSm;
+} WNDCLASSEXW, *PWNDCLASSEXW, NEAR *NPWNDCLASSEXW, FAR *LPWNDCLASSEXW;
+```
 
-## Format
+When the WNDCLASSEX class is filled, we pass it's address to the ```RegisterClass()```function. 
 
+```cpp
+RegisterClass(&windowClass);
+```
 
+Finally, we create handle to the window by calling the ```CreateWindowEx()```function.
+
+```cpp
+CreateWindowEx(
+    _In_ DWORD dwExStyle,
+    _In_opt_ LPCWSTR lpClassName,
+    _In_opt_ LPCWSTR lpWindowName,
+    _In_ DWORD dwStyle,
+    _In_ int X,
+    _In_ int Y,
+    _In_ int nWidth,
+    _In_ int nHeight,
+    _In_opt_ HWND hWndParent,
+    _In_opt_ HMENU hMenu,
+    _In_opt_ HINSTANCE hInstance,
+    _In_opt_ LPVOID lpParam);
+```
+
+Showing the window can be achieved by calling the ```ShowWindow()```function and supplying the window handle together with a Boolean. To ensure the window is painted immediately, the ```UpdateWindow()```function can be called, supplying only the window handle.
 ## Example
 
+```cpp
+LPCTSTR title = L"Window Title";
+WNDCLASSEX windowClass;
+
+windowClass.cbSize        = sizeof(WNDCLASSEX);
+windowClass.style         = CS_HREDRAW | CS_VREDRAW;
+windowClass.lpfnWndProc   = WndProc;
+windowClass.cbClsExtra    = NULL;
+windowClass.cbWndExtra    = NULL;
+windowClass.hInstance     = hInstance;
+windowClass.hIcon         = LoadIcon(NULL, IDI_APPLICATION);
+windowClass.hCursor       = LoadCursor(NULL, IDC_ARROW);
+windowClass.hbrBackground = (HBRUSH)(COLOR_WINDOW + 2);
+windowClass.lpszMenuName  = NULL;
+windowClass.lpszClassName = L"Window class name";
+windowClass.hIconSm       = LoadIcon(NULL, IDI_APPLICATION);
+
+RegisterClass(&windowClass);
+
+_handle = CreateWindowEx(
+	NULL, 
+	title, 
+	title, 
+	WS_OVERLAPPEDWINDOW, 
+	CW_USEDEFAULT, 
+	CW_USEDEFAULT, 
+	1200, 
+	800, 
+	NULL, 
+	NULL, 
+	hInstance, 
+	NULL);
+
+ShowWindow(_handle, true);
+UpdateWindow(_handle);
+```
 
 ## References
 https://learn.microsoft.com/en-us/windows/win32/learnwin32/creating-a-window
