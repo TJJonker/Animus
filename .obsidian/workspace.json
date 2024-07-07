@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "6 - All Notes/Device.md",
-                "mode": "source",
+                "file": "6 - All Notes/Descriptor Heap.md",
+                "mode": "preview",
                 "backlinks": true,
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "6 - All Notes/Device.md",
+                "file": "6 - All Notes/Descriptor Heap.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "6 - All Notes/Device.md",
+                "file": "6 - All Notes/Descriptor Heap.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "6 - All Notes/Device.md"
+                "file": "6 - All Notes/Descriptor Heap.md"
               }
             }
           }
@@ -149,10 +149,11 @@
   },
   "active": "fd0c110e2dcee599",
   "lastOpenFiles": [
+    "6 - All Notes/Descriptor Heap.md",
+    "6 - All Notes/Device.md",
     "6 - All Notes/IDXGIFactory Interface.md",
     "1 - Rough Notes/DX12 todo.md",
     "6 - All Notes/Command Queue.md",
-    "6 - All Notes/Device.md",
     "3 - Tags/Windows Programming.md",
     "6 - All Notes/Window (Windows).md",
     "6 - All Notes/Command List.md",
@@ -176,7 +177,6 @@
     "Something.md",
     "3 - Tags/Graphics Programming.md",
     "5 - Templates/Tag Expansion.md",
-    "6 - All Nodes/Really Interesting Node That Peaks My Interest.md",
     "Animus",
     "6 - All Notes",
     "5 - Templates",
