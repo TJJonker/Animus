@@ -8,18 +8,20 @@ The variable of the IDXGIFactory ends with 1, 2, 3 or 4, which is the version nu
 
 The IDXGIFactory interface contains the following functions:
 
-| Function                                                                                                                                             |
-| ---------------------------------------------------------------------------------------------------------------------------------------------------- |
-| ```IDXGIFactory::CreateSoftwareAdapter```<br>Creates an adapter interface that represents a software device.                                         |
-| ```IDXGIFactory::CreateSwapChain```<br>Creates a swap chain.                                                                                         |
-| ```IDXGIFactory::EnumAdapters```<br>Enumerates the video card adapters.                                                                              |
-| ```IDXGIFactory::GetWindowAssociation```<br>Get the window that goes in or out of full screen.                                                       |
-| ```IDXGIFactory::MakeWindowAssociation```<br>Allows lDXGI to monitor an application's message queue to check if it's going in or out of full screen. |
+| Function                                                                                                                                                  |
+| --------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ```IDXGIFactory::CreateSoftwareAdapter```<br>Creates an adapter interface that represents a software device.<br>‎                                         |
+| ```IDXGIFactory::CreateSwapChain```<br>Creates a swap chain.<br>‎                                                                                         |
+| ```IDXGIFactory::EnumAdapters```<br>Enumerates the video card adapters.<br>‎                                                                              |
+| ```IDXGIFactory::GetWindowAssociation```<br>Get the window that goes in or out of full screen.<br>‎                                                       |
+| ```IDXGIFactory::MakeWindowAssociation```<br>Allows lDXGI to monitor an application's message queue to check if it's going in or out of full screen.<br>‎ |
 
 ## Format
 
 ```cpp
-HRESULT WINAPI CreateDXGIFactory(REFIID riid, _COM_Outptr_ void **ppFactory);
+HRESULT WINAPI CreateDXGIFactory(
+	REFIID             riid, 
+	_COM_Outptr_ void  **ppFactory);
 ```
 ## Example
 
