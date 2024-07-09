@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Root Parameters.md",
+                "file": "Input Data Layout.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -70,7 +70,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "d0ba8acec911cb38",
@@ -86,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Root Parameters.md",
+                "file": "Input Data Layout.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Root Parameters.md",
+                "file": "Input Data Layout.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Root Parameters.md"
+                "file": "Input Data Layout.md"
               }
             }
           }
@@ -149,10 +150,11 @@
   },
   "active": "fd0c110e2dcee599",
   "lastOpenFiles": [
+    "6 - All Notes/The Pipeline State Object (PSO).md",
+    "Input Data Layout.md",
     "6 - All Notes/The Root Signature.md",
     "Root Parameters.md",
     "6 - All Notes/DWORD.md",
-    "6 - All Notes/The Pipeline State Object (PSO).md",
     "6 - All Notes/The Swap Chain.md",
     "6 - All Notes/Descriptor Heap.md",
     "6 - All Notes/Device.md",
@@ -176,7 +178,6 @@
     "5 - Templates/Note Template Code.md",
     "Pasted image 20240628164852.png",
     "Something.md",
-    "3 - Tags/Graphics Programming.md",
     "Animus",
     "6 - All Notes",
     "5 - Templates",
