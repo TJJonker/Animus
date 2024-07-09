@@ -5,7 +5,7 @@
 A root signature is a data structure that contains parameters and corresponding data, which can be used in the shader. Shaders can be seen as functions and root signatures as the arguments supplied in the 'shader function'. The root signature can be split up into three parts: The Root Parameters, Static Samplers and the visibility flags.
 
 #### Root Parameters
-Root parameters are the parameters supplied to the shader. From within the shader, these parameters can be accessed and their content can be read *(and changed?)*. These parameters can be split up into three groups:
+[[Root Parameters]] are the parameters supplied to the shader. From within the shader, these parameters can be accessed and their content can be read *(and changed?)*. These parameters can be split up into three groups:
 1. **Root Constants** are inline constant values with the size of 1 [[DWORD]]. Since they are inline, thus not needing any redirection, they are extremely fast to access. The downside is that there is not a lot of memory allocated for root constants, which means this space is most often reserved for small regularly accessed data which changes often. 
 2. **Root Descriptors** are pointers (2 [[DWORD]]s) to data used inside the shader. They have a single redirection since we need to access the pointer to retrieve the data, making them perfect for bigger, regularly accessed shader data.
 3. **Descriptor tables** are collections of descriptors that are accessed as a group. They all have the size of a single [[DWORD]], holding just a 16-bit offset and a 16-bit length. Descriptor Tables are perfect for a collection of data that is accessed as a group like multiple textures (diffuse, normal, specular), which are bound together often. 
