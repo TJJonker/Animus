@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "6 - All Notes/Input Data Layout.md",
+                "file": "6 - All Notes/Resource Barriers.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "6 - All Notes/Input Data Layout.md",
+                "file": "6 - All Notes/Resource Barriers.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "6 - All Notes/Input Data Layout.md",
+                "file": "6 - All Notes/Resource Barriers.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "6 - All Notes/Input Data Layout.md"
+                "file": "6 - All Notes/Resource Barriers.md"
               }
             }
           }
@@ -149,8 +149,9 @@
   },
   "active": "fd0c110e2dcee599",
   "lastOpenFiles": [
-    "6 - All Notes/The Pipeline State Object (PSO).md",
     "6 - All Notes/Input Data Layout.md",
+    "6 - All Notes/Resource Barriers.md",
+    "6 - All Notes/The Pipeline State Object (PSO).md",
     "6 - All Notes/IDXGIFactory Interface.md",
     "6 - All Notes/DWORD.md",
     "6 - All Notes/Descriptor Heap.md",
@@ -176,7 +177,6 @@
     "3 - Tags/Template.md",
     "5 - Templates/Note Template Code.md",
     "Pasted image 20240628164852.png",
-    "Something.md",
     "Animus",
     "6 - All Notes",
     "5 - Templates",
