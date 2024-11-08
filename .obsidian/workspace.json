@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "6 - All Notes/Descriptor Heap.md",
+                "file": "2 - Source Material/YouTube/Inner working or DRAM.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "6 - All Notes/Descriptor Heap.md",
+                "file": "2 - Source Material/YouTube/Inner working or DRAM.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "6 - All Notes/Descriptor Heap.md",
+                "file": "2 - Source Material/YouTube/Inner working or DRAM.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "6 - All Notes/Descriptor Heap.md"
+                "file": "2 - Source Material/YouTube/Inner working or DRAM.md"
               }
             }
           }
@@ -149,10 +149,11 @@
   },
   "active": "fd0c110e2dcee599",
   "lastOpenFiles": [
+    "3 - Tags/Computer Hardware.md",
+    "6 - All Notes/Descriptor Heap.md",
     "6 - All Notes/Resource Barriers.md",
     "6 - All Notes/Programming Jargon.md",
     "3 - Tags/DirectX12.md",
-    "6 - All Notes/Descriptor Heap.md",
     "6 - All Notes/Input Data Layout.md",
     "6 - All Notes/The Pipeline State Object (PSO).md",
     "6 - All Notes/IDXGIFactory Interface.md",
@@ -168,7 +169,6 @@
     "6 - All Notes/Command List.md",
     "Google.com.md",
     "2 - Source Material/YouTube/Inner working or DRAM.md",
-    "3 - Tags/Computer Hardware.md",
     "5 - Templates/Source Material Template.md",
     "DRAM.md",
     "2 - Source Material/YouTube",
