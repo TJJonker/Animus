@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "6 - All Notes/Command List.md",
+                "file": "6 - All Notes/Command Queue.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,10 +28,35 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Command List"
+              "title": "Command Queue"
+            }
+          },
+          {
+            "id": "a60262d202de247d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Untitled.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Untitled"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -104,7 +129,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "6 - All Notes/Command List.md",
+                "file": "Untitled.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +139,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Command List"
+              "title": "Backlinks for Untitled"
             }
           },
           {
@@ -123,12 +148,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "6 - All Notes/Command List.md",
+                "file": "Untitled.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Command List"
+              "title": "Outgoing links from Untitled"
             }
           },
           {
@@ -152,13 +177,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "6 - All Notes/Command List.md",
+                "file": "Untitled.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Command List"
+              "title": "Outline of Untitled"
             }
           }
         ]
@@ -176,15 +201,18 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "fd0c110e2dcee599",
+  "active": "a60262d202de247d",
   "lastOpenFiles": [
+    "Untitled.md",
+    "6 - All Notes/Command Queue.md",
+    "6 - All Notes/Command List.md",
     "3 - Tags/DirectX12.md",
     "3 - Tags/Computer Hardware.md",
     "6 - All Notes/DWORD.md",
-    "6 - All Notes/Command List.md",
     "1 - Rough Notes/DX12 todo.md",
     "2 - Source Material/YouTube/Inner working or DRAM.md",
     "6 - All Notes/Descriptor Heap.md",
@@ -198,7 +226,6 @@
     "6 - All Notes/The Root Signature.md",
     "6 - All Notes/Root Parameters.md",
     "6 - All Notes/Device.md",
-    "6 - All Notes/Command Queue.md",
     "3 - Tags/Windows Programming.md",
     "Google.com.md",
     "5 - Templates/Source Material Template.md",
@@ -207,7 +234,6 @@
     "2 - Source Material/YouTube.md",
     "5 - Templates/Note Template.md",
     "3 - Tags/Template.md",
-    "5 - Templates/Note Template Code.md",
     "Pasted image 20240628164852.png",
     "Animus",
     "6 - All Notes",
