@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "6 - All Notes/Command Queue.md",
+                "file": "2 - Source Material/YouTube/Inner working or DRAM.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,35 +28,10 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Command Queue"
-            }
-          },
-          {
-            "id": "a60262d202de247d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Untitled.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Untitled"
+              "title": "Inner working or DRAM"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -129,7 +104,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Untitled.md",
+                "file": "2 - Source Material/YouTube/Inner working or DRAM.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +114,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Untitled"
+              "title": "Backlinks for Inner working or DRAM"
             }
           },
           {
@@ -148,12 +123,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Untitled.md",
+                "file": "2 - Source Material/YouTube/Inner working or DRAM.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Untitled"
+              "title": "Outgoing links from Inner working or DRAM"
             }
           },
           {
@@ -177,13 +152,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Untitled.md",
+                "file": "2 - Source Material/YouTube/Inner working or DRAM.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Untitled"
+              "title": "Outline of Inner working or DRAM"
             }
           }
         ]
@@ -205,15 +180,15 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "a60262d202de247d",
+  "active": "fd0c110e2dcee599",
   "lastOpenFiles": [
-    "Untitled.md",
+    "1 - Rough Notes/DX12 todo.md",
     "6 - All Notes/Command Queue.md",
+    "Untitled.md",
     "6 - All Notes/Command List.md",
     "3 - Tags/DirectX12.md",
     "3 - Tags/Computer Hardware.md",
     "6 - All Notes/DWORD.md",
-    "1 - Rough Notes/DX12 todo.md",
     "2 - Source Material/YouTube/Inner working or DRAM.md",
     "6 - All Notes/Descriptor Heap.md",
     "6 - All Notes/Resource Barriers.md",
