@@ -160,13 +160,23 @@
               "icon": "lucide-list",
               "title": "Outline of Inner working or DRAM"
             }
+          },
+          {
+            "id": "922687a9169b15c6",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -180,7 +190,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "fd0c110e2dcee599",
+  "active": "e2011fdc7921031d",
   "lastOpenFiles": [
     "1 - Rough Notes/DX12 todo.md",
     "6 - All Notes/Command Queue.md",
