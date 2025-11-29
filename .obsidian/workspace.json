@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2 - Source Material/YouTube/Inner working or DRAM.md",
+                "file": "1 - Rough Notes/Responsive Grids.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Inner working or DRAM"
+              "title": "Responsive Grids"
             }
           }
         ]
@@ -63,7 +63,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#alpha",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -84,11 +84,13 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "d0ba8acec911cb38",
@@ -193,6 +195,8 @@
   },
   "active": "fd0c110e2dcee599",
   "lastOpenFiles": [
+    "2 - Source Material/YouTube/Inner working or DRAM.md",
+    "1 - Rough Notes/Responsive Grids.md",
     "1 - Rough Notes/DX12 todo.md",
     "6 - All Notes/Command Queue.md",
     "Untitled.md",
@@ -200,7 +204,6 @@
     "3 - Tags/DirectX12.md",
     "3 - Tags/Computer Hardware.md",
     "6 - All Notes/DWORD.md",
-    "2 - Source Material/YouTube/Inner working or DRAM.md",
     "6 - All Notes/Descriptor Heap.md",
     "6 - All Notes/Resource Barriers.md",
     "6 - All Notes/Programming Jargon.md",
@@ -219,7 +222,6 @@
     "2 - Source Material/YouTube",
     "2 - Source Material/YouTube.md",
     "5 - Templates/Note Template.md",
-    "3 - Tags/Template.md",
     "Pasted image 20240628164852.png",
     "Animus",
     "6 - All Notes",
