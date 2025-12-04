@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1 - Rough Notes/Responsive Grids.md",
+                "file": "Material Design 3.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Responsive Grids"
+              "title": "Material Design 3"
             }
           }
         ]
@@ -89,7 +89,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "d0ba8acec911cb38",
@@ -194,8 +195,9 @@
   },
   "active": "3cd811e6fa3f521b",
   "lastOpenFiles": [
-    "window procedure.md",
     "1 - Rough Notes/Responsive Grids.md",
+    "Material Design 3.md",
+    "window procedure.md",
     "Untitled.base",
     "2 - Source Material/YouTube/Inner working or DRAM.md",
     "1 - Rough Notes/DX12 todo.md",
@@ -221,7 +223,6 @@
     "5 - Templates/Source Material Template.md",
     "DRAM.md",
     "2 - Source Material/YouTube",
-    "2 - Source Material/YouTube.md",
     "Pasted image 20240628164852.png",
     "Animus",
     "6 - All Notes",
