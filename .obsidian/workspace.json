@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "ff530e4f578c3a78",
+        "id": "0f81b6d814f9702b",
         "type": "tabs",
         "children": [
           {
-            "id": "fd0c110e2dcee599",
+            "id": "3cd811e6fa3f521b",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -89,8 +89,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "d0ba8acec911cb38",
@@ -193,10 +192,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "fd0c110e2dcee599",
+  "active": "3cd811e6fa3f521b",
   "lastOpenFiles": [
-    "2 - Source Material/YouTube/Inner working or DRAM.md",
+    "window procedure.md",
     "1 - Rough Notes/Responsive Grids.md",
+    "Untitled.base",
+    "2 - Source Material/YouTube/Inner working or DRAM.md",
     "1 - Rough Notes/DX12 todo.md",
     "6 - All Notes/Command Queue.md",
     "Untitled.md",
@@ -221,7 +222,6 @@
     "DRAM.md",
     "2 - Source Material/YouTube",
     "2 - Source Material/YouTube.md",
-    "5 - Templates/Note Template.md",
     "Pasted image 20240628164852.png",
     "Animus",
     "6 - All Notes",

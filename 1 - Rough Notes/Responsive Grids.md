@@ -13,14 +13,22 @@ Web standard applies a horizontal layout with 12 segments. 12 Is easily divisibl
 
 20px gutter, count is 12, type stretch, margin depends on the size of the container.
 
-| Container Size | Margin |
+| **Container Size** | **Margin** |
 | -------------- | ------ |
 | 1140px         | 30     |
 | 960px          | 120    |
 The Column Layout serves as a guide and can be broken. However, if done, this should be done with clear intention and by design, not on accident. Sticking to the Column Layout guarantees consistency, while stepping away could shake things up and make it look more interesting.
 
 ## Making Responsive Columns
-When designing websites, 
+When designing websites, we often use a different number of columns for different resolutions. Designers often apply the 12 / 8 / 4 rule, maintaining 12 columns for desktop designs, 8 for tablet designs and 4 for mobile designs. The gutter and margin also vary on the resolution of the screen as shown in the earlier table. 
+
+
+| **Resolution Type** | **Count** | **Gutter** | **Type** | **Margin**           |
+| ------------------- | --------- | ---------- | -------- | -------------------- |
+| Desktop             | 12        | 20px       | Stretch  | Depends on container |
+| Tablet              | 8         | 16px       | Stretch  | 32px                 |
+| Mobile              | 4         | 12px       | Stretch  | 12px                 |
+
 
 ## References
 [Master Responsive Grids (Rows & Columns) in Figma](https://www.youtube.com/watch?v=sybtdc4dYzE)
