@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1 - Rough Notes/Research Topics.md",
+                "file": "2 - Source Material/YouTube/Inner working or DRAM.md",
                 "mode": "preview",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Research Topics"
+              "title": "Inner working or DRAM"
             }
           }
         ]
@@ -193,8 +193,9 @@
   },
   "active": "6365c4d7b6e9528c",
   "lastOpenFiles": [
-    "1 - Rough Notes/DX12 todo.md",
+    "3 - Tags/DirectX12.md",
     "1 - Rough Notes/Research Topics.md",
+    "1 - Rough Notes/DX12 todo.md",
     "Untitled 3.base",
     "Untitled 2.base",
     "Untitled 4.base",
@@ -209,7 +210,6 @@
     "Untitled.base",
     "Untitled.md",
     "6 - All Notes/Command List.md",
-    "3 - Tags/DirectX12.md",
     "3 - Tags/Computer Hardware.md",
     "6 - All Notes/DWORD.md",
     "6 - All Notes/Descriptor Heap.md",
