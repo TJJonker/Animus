@@ -30,8 +30,33 @@
               "icon": "lucide-file",
               "title": "Inner working or DRAM"
             }
+          },
+          {
+            "id": "aa6aea7dcbab42a0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Programming Languages.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Programming Languages"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -191,15 +216,16 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "6365c4d7b6e9528c",
+  "active": "aa6aea7dcbab42a0",
   "lastOpenFiles": [
+    "Programming Languages.md",
+    "2 - Source Material/YouTube/Inner working or DRAM.md",
     "3 - Tags/DirectX12.md",
     "1 - Rough Notes/Research Topics.md",
     "1 - Rough Notes/DX12 todo.md",
     "Untitled 3.base",
     "Untitled 2.base",
     "Untitled 4.base",
-    "2 - Source Material/YouTube/Inner working or DRAM.md",
     "6 - All Notes/The Swap Chain.md",
     "6 - All Notes/Command Queue.md",
     "1 - Rough Notes/Responsive Grids.md",
@@ -208,7 +234,6 @@
     "screen tearing.md",
     "window procedure.md",
     "Untitled.base",
-    "Untitled.md",
     "6 - All Notes/Command List.md",
     "3 - Tags/Computer Hardware.md",
     "6 - All Notes/DWORD.md",
