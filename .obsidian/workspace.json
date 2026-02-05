@@ -54,9 +54,33 @@
               "icon": "lucide-file",
               "title": "Programming Languages"
             }
+          },
+          {
+            "id": "53fff556b8287f5e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1 - Rough Notes/Responsive Grids.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Responsive Grids"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -216,8 +240,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "aa6aea7dcbab42a0",
+  "active": "53fff556b8287f5e",
   "lastOpenFiles": [
+    "Material Design 3.md",
     "Programming Languages.md",
     "2 - Source Material/YouTube/Inner working or DRAM.md",
     "3 - Tags/DirectX12.md",
@@ -229,7 +254,6 @@
     "6 - All Notes/The Swap Chain.md",
     "6 - All Notes/Command Queue.md",
     "1 - Rough Notes/Responsive Grids.md",
-    "Material Design 3.md",
     "Untitled 1.base",
     "screen tearing.md",
     "window procedure.md",
